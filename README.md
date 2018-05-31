@@ -138,7 +138,6 @@ Navigate to: **Manage Jenkins** > **Configure Configure System**
                         *  Commit Status Context
                         *  Commit Status Build Triggered
                         *  Commit Status Build Started
-                    *  Add test result one liner [ ✓ ]
 
 <div align="center"><img src="pr-jenkins-wait-trigger-word.jpg"/></div>
 
