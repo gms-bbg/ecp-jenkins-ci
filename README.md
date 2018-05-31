@@ -181,7 +181,7 @@ We will need to create a personal access token on GitHub to give Travis-CI the a
 We will store the personal access token created in the previous step in an environmental variable that will be accessbile to the Travis-CI worker.
 
 *  Access the repository settings on Travis-CI:
-    *  https://travis-ci.com/**{username or organization}**/**{repository name}**/settings
+    *  `https://travis-ci.com/{username or organization}/{repository name}/settings`
         *  Environmental Variables:
             *  Click on **Add**
                 *  Name: `GITHUB_TOKEN`
@@ -191,14 +191,14 @@ We will store the personal access token created in the previous step in an envir
 
 Modify the `travis.yml` file and add to the `after_success:` section:
 
-```
+```yaml
 after_success:
 - path/to/shell/script/travis-ci-commenter.sh
 ```
 
 Content of **travis-ci-commenter.sh** :
 
-```
+```bash
 #!/bin/bash
 
 if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
