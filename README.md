@@ -180,7 +180,7 @@ We will need to create a personal access token on GitHub to give Travis-CI the a
 We will store the personal access token created in the previous step in an environmental variable that will be accessbile to the Travis-CI worker.
 
 *  Access the repository settings on Travis-CI:
-    *  `https://travis-ci.com/{username or organization}/{repository name}/settings`
+    *  https://<span></span>travis-ci.com/**{username or organization}**/**{repository name}**/settings
         *  Environmental Variables:
             *  Click on **Add**
                 *  Name: `GITHUB_TOKEN`
