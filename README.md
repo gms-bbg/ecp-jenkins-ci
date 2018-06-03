@@ -110,7 +110,7 @@ Navigate to: **Manage Jenkins** > **Configure Configure System**
                 *  Name: `origin`
                 *  Refspec: `+refs/pull/*:refs/remotes/origin/pr/*`
         *  Branches to build:
-            *  Branch Specifier:  **{specify a branch name}**
+            *  Branch Specifier:  `${sha1}`
                 * *click on ( ? ) for more information*
 *  Build Triggers
     *  GitHub Branches:
