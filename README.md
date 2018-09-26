@@ -8,6 +8,8 @@
 
 ## Installing Jenkins
 ### [Centos 7](https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions)
+[https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions](https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions)
+
 *  Install the LTS version of Jenkins:
     * `sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo`
     * `sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key`
@@ -25,16 +27,23 @@
     *  password may be stored in a different location
 
 ### [Ubuntu](https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu)
+[https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu](https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu)
+
 *  Click on above link.
 
 ## Install plugins
 Navigate to: **Manage Jenkins** > **Manage Plugins**
 
 *  [**Cobertura Plugin**](https://wiki.jenkins.io/display/JENKINS/Cobertura+Plugin) - for code coverage reporting
+    *  [https://wiki.jenkins.io/display/JENKINS/Cobertura+Plugin](https://wiki.jenkins.io/display/JENKINS/Cobertura+Plugin)
 *  [**Conditional BuildStep**](https://wiki.jenkins-ci.org/display/JENKINS/Conditional+BuildStep+Plugin) - allows the specification of conditionals during the build step (if not all items of a matrix build should be built)
+    *  [https://wiki.jenkins-ci.org/display/JENKINS/Conditional+BuildStep+Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Conditional+BuildStep+Plugin)
 *  [**GitHub Authentication Plugin**](http://wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin) - provides a means of using GitHub for authentication and authorization to secure Jenkins
+    *  [http://wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin](http://wiki.jenkins-ci.org/display/JENKINS/Github+OAuth+Plugin)
 *  [**GitHub Integration Plugin**](https://wiki.jenkins.io/display/JENKINS/GitHub+Integration+Plugin) - provides GitHub pull-request and branch triggers
+    *  [https://wiki.jenkins.io/display/JENKINS/GitHub+Integration+Plugin](https://wiki.jenkins.io/display/JENKINS/GitHub+Integration+Plugin)
 *  [**GitHub Pull Request Builder**](https://wiki.jenkins.io/display/JENKINS/GitHub+pull+request+builder+plugin) - build pull-requests from GitHub and report results
+    *  [https://wiki.jenkins.io/display/JENKINS/GitHub+pull+request+builder+plugin](https://wiki.jenkins.io/display/JENKINS/GitHub+pull+request+builder+plugin)
 
 ## Configure GitHub Authentication Plugin
 Navigate to: **Manage Jenkins** > **Configure Global Security**
